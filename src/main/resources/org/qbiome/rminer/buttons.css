@@ -1,0 +1,23 @@
+.buttonsbar {
+    -fx-background-color: #2C5F2D;
+}
+.buttonsbar-buttons {
+    -fx-background-color: #97BC62FF;
+}
+.buttonsbar-buttons:hover {
+    -fx-background-color: #87AC52FF;
+    -fx-scale-y: 1.1;
+}
+
+.scene1 {
+    -fx-background-color: #2C5F2DFF;
+}
+.input-box {
+    -fx-background-color: #FFE77AFF;
+}
+.titlebar {
+    -fx-background-color: #184A45FF;
+}
+.text-area {
+    -fx-text-fill: black;
+}
