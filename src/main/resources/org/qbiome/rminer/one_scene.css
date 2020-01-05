@@ -1,0 +1,34 @@
+.scene_container {
+    -fx-background-color: #99c274;
+}
+
+.menubar {
+     -fx-background-color: #9091a0;
+}
+
+.text-input {
+    -fx-background-color: #eefd78;
+}
+
+.submit-button {
+    -fx-background-color: #606170;
+    -fx-text-fill: #dddddd;
+
+}
+
+.submit-button :hover {
+    -fx-background-color: #101120;
+}
+
+.scroll-pane {
+    -fx-background-color: #69929e;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-control-inner-background: #a9d2de;
+    -fx-font-family: Consolas;
+}

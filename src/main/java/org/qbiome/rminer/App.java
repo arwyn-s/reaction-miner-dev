@@ -17,7 +17,10 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("input"));
+        
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("one_scene.fxml"));
+        scene = new Scene(fxmlLoader.load());
+        scene.getStylesheets().add(getClass().getResource("one_scene.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
     }
